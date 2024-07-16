@@ -1,0 +1,85 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+    /* background-image: url('studybg.avif'); */
+    background-size: cover; /* Cover the entire body */
+    background-position: center center; /* Center the image both horizontally and vertically */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Ensure body covers the entire viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+/* Container styles */
+.exam {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for the exam container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center aligns inline-block and inline elements */
+    position: relative; /* Ensure relative positioning for absolute centering */
+}
+
+.exam h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Select dropdown styles */
+.select {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Topic sections */
+.topic {
+    margin-top: 10px;
+}
+
+.topic > div {
+    display: none; /* Hide all topic sections initially */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    background-color: #f9f9f9; /* Light background for topic sections */
+    border-radius: 4px;
+}
+
+/* Input field styles */
+#write {
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Additional styles for #story */
+#story {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background for story */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    text-align: left; /* Adjust text alignment as needed */
+}
+
+#myfile {
+    background-color: blue;
+}

@@ -1,0 +1,77 @@
+.index-page {
+    /* max-width: 800px; */
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.index-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.index-page p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.index-page button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.index-page button:hover {
+    background-color: #0056b3;
+}
+
+.image-section {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.image-section > * {
+    flex: 1;
+    margin: 0 10px; /* Optional: Adds some space between the children */
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content-section {
+
+    display:flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,135 @@
+.student-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-student-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-student-btn:hover {
+    background-color: #45a049;
+}
+
+.home-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-btn:hover {
+    background-color: #007bb5;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#levelFilter {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.student-table td {
+    color: green; /* Default color */
+}
+
+/* Red color for students where level is less than standard */
+.student-table td.level-less-than-standard {
+    color: red;
+}
+
+.take-test-btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.take-test-btn:hover {
+    background-color: #007bb5;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Pie Chart Styles */
+.charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.pie-chart {
+    width: 50%;
+    min-width: 300px; /* Adjust as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.student-list {
+    width: 45%;
+    min-width: 300px; /* Adjust as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 500px; /* Adjust as needed */
+}

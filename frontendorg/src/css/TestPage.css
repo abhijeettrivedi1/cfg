@@ -1,0 +1,71 @@
+.TestPage {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .back-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdowns {
+    margin-bottom: 20px;
+  }
+  
+  .dropdowns label {
+    margin-right: 10px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* Prevent textarea resizing */
+  }
+  
+  .form input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .form input[type="submit"] {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
